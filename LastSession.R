@@ -36,7 +36,9 @@ library(tictoc)       # Zeitmessung (Timing von Code-Ausführungen)
 
 
 
-data <- read_csv(Versicherung.csv)
+Versicherung <- read_csv("Versicherung.csv")
+
+plit_missing(data)
 
 
 
